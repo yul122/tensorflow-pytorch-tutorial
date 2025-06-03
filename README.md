@@ -1,4 +1,5 @@
-#In file nova/config.py change the line below to your directory as need
+First, you have to setup your base
 ```python
 base = "/home/yourname/nova" 
 ```
+For example, my base is like: /home/yuechen/nova   
