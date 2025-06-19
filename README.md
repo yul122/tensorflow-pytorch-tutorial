@@ -47,5 +47,20 @@ For example:
 python train2.py --path /mnt/ironwolf_20t/users/yuechen/data/after_process_Jan10 --model googlenet --name train_tau_pytorch | tee train_tau_pytorch_29th_May.log
 ```
 
+## Run command
+
+Ater the trainning, you will see ".pt" files in your "models" directory. 
+Run the command to save your file in ".pkl" file.
+
+```python
+python test2.py --modelpath /home/yournme/nova/pytorch_version/models/your_pt_file.pt --path /path/you/used/in/training --name name_you_wanna_to_give_for_model
+```
+
+```python
+python test2.py --modelpath /home/yuechen/nova/pytorch_version/pytorch_version/models/train_tau_pytorch_checkpoint.pt --path /mnt/ironwolf_20t/users/yuechen/data/after_process_Jan10 --name pytorch_tau_test_29
+```
+# Plot
+Remotely, run jupyter notebook --no-browser --port=8889
+Locally, run ssh -N -f -L localhost:8888:localhost:8889 remote_user@remote_host
 
 
