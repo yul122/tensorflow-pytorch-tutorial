@@ -33,6 +33,13 @@ After that, put all the files in my package into the root directory named pytorc
                     pkl_file
 
 ```
+Here are some tips to copy your files from your laptop to the server:
+```python
+scp /path/of/file/in/your/laptop/ yourname@tau-neutrino.ps.uci.edu:/home/yourname/nova/pytorch_version
+
+```
+
+
 ## Run command
 ```python
 python train2.py --path /path/to/data/,/you/can/use/example/path/above --model model --name name_you_wanna_to_give | tee name_of_log_you_wanna_to_give.log
