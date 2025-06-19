@@ -14,6 +14,8 @@ Our example data directory on the server: /mnt/ironwolf_20t/users/yuechen/data/a
 cd /home/yourname/nova
 mkdir pytorch_version
 cd pytorch_version
+mkdir models
+mkdir pkl_file
 ```
 After that, put all the files in my package into the root directory named pytorch_version. Then your base is looking like this:
 ```python
@@ -27,7 +29,8 @@ After that, put all the files in my package into the root directory named pytorc
                     Preprocessed_Pytorch.py
                     test2.py
                     train2.py
-
+                    models
+                    pkl_file
 
 ```
 ## Run command
