@@ -53,6 +53,8 @@ For example:
 ```python
 python train2.py --path /mnt/ironwolf_20t/users/yuechen/data/after_process_Jan10 --model googlenet --name train_tau_pytorch | tee train_tau_pytorch_29th_May.log
 ```
+REMEMBER:
+Double-check with your train2.py file's saving path, makesure it is saved to your path.
 
 ## Testing
 
