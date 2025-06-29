@@ -58,11 +58,11 @@ Double-check with your train2.py file's saving path, makesure it is saved to you
 
 ## Testing
 
-Ater the trainning, you will see ".pt" files in your "models" directory. 
+After the trainning, you will see ".pt" files in your "models" directory. 
 Run the command to save your file in ".pkl" file.
 
 ```python
-python test2.py --modelpath /home/yournme/nova/pytorch_version/models/your_pt_file.pt --path /path/you/used/in/training --name name_you_wanna_to_give_for_model
+python test2.py --modelpath /home/yournme/nova/pytorch_version/models/your_pt_file.pt --path /path/you/used/in/training --name name_you_wanna_to_give_for_model --model googlenet/or/mobilenet
 ```
 For example:
 ```python
@@ -71,5 +71,7 @@ python test2.py --modelpath /home/yuechen/nova/pytorch_version/models/train_tau_
 # Plot
 Remotely, run jupyter notebook --no-browser --port=8889
 Locally, run ssh -N -f -L localhost:8888:localhost:8889 remote_user@remote_host
-
+## Some tips for running the code
+1. After downloading the code, make sure the structure of your folders are correct
+2. Don't forgot to go into train2.py and test2.py, change those lines about saving data inside the file
 
