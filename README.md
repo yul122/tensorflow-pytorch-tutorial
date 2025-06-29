@@ -74,4 +74,7 @@ Locally, run ssh -N -f -L localhost:8888:localhost:8889 remote_user@remote_host
 ## Some tips for running the code
 1. After downloading the code, make sure the structure of your folders are correct
 2. Don't forgot to go into train2.py and test2.py, change those lines about saving data inside the file
+3. Some example command lines to copy and paste between servers:
+   ```scp yuechen@tau-neutrino.ps.uci.edu:/home/yuechen/nova/pytorch_version/pytorch_version/pkl_file/pytorch_tau_test_29_Jun_predictions.pkl /home/yuechen/nova/pkl_file
+   ```
 
